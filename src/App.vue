@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="container">
-    <h1 class="mb-4">Un petit quiz</h1>
+    <h1 class="mb-4">Un petit quiz de Régis</h1>
     <b-alert v-if="fin" show="">Votre score est : {{ score }} / {{ questions.length }}</b-alert>
     <b-card :header="questions[index].question"
             header-tag="header">
